@@ -1,0 +1,53 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {}
+
+ul {
+    padding: 0;
+    list-style-type: none;
+
+    display: flex;
+    gap: 15px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 120px;
+    background-color: #1F2937;
+    color: white;
+    margin: 0
+}
+
+.links {
+    display: flex;
+} 
+
+.hero {
+    display: flex;
+    padding: 30px 120px;
+    background-color: #1F2937;
+    color: white;
+
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding-right: 70px
+    
+}
+
+img {
+    width: 50%;
+    height: auto;
+}
+
+button {
+    width: 100px
+    
+}
