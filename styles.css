@@ -133,7 +133,7 @@ button {
 
 .words {
     display: flex;
-    width: 70%;
+    width: 65%;
 }
 
 .author {
@@ -143,4 +143,51 @@ button {
     font-size: 20px;
     justify-content: flex-end;
     margin-top: 0px
+}
+
+/* CALL TO ACTION */
+
+.call {
+    display: flex;
+    justify-content: space-between;
+    background-color: #3882f6;
+    color: white;
+    padding: 5px 150px;
+    margin: 70px 120px;
+    border-radius: 10px;
+}
+
+.sign {
+    display: flex;
+    justify-content: flex-end;
+    align-self: center;
+    height: 30px;
+}
+
+.action {
+    padding: 50px 0px;
+}
+
+.up {
+    background-color: transparent;
+    color: white;
+    border: solid 2px white;
+    border-radius: 8px;
+    width: 130px;
+    font-weight: 600;
+}
+
+button:hover {
+    font-weight: bold
+}
+
+/* FOOTER */
+
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding: 30px 0px;
+    font-weight: 300px;
 }
